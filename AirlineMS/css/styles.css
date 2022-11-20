@@ -1,0 +1,152 @@
+h1{
+	font-style: bold;
+	font-size: 50pt;
+	color: white;
+}
+h2 {
+	color: brown;
+	padding-left: 10px;
+	font-size: 25pt;
+	font-style: bold;
+}
+.body {
+	background-color: wheat;
+}
+.footer {
+	background-color: brown;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.header {
+	background-color: brown;
+	color: white;
+}
+#title{
+	display: inline;
+}
+.logo{
+	float: left;
+	object-fit: cover;
+    width: 55px;
+    padding: 10px;
+}
+.float_form{
+	float: left;
+}
+.center_form{
+	float: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #030337;
+}
+li{
+	display: inline;
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E7E7F6;
+    color: #030337;
+}
+
+a {
+	color: #030337;
+	text-decoration: none;
+	padding-left: 20px;
+}
+a:hover{
+	background-color: white;
+	color: #030337;
+}
+.heading{
+	font-size:30pt;
+	text-align: center;
+}
+.fix_table{
+	width: 300px;
+}
+.fix_table_short{
+	width: 225px;
+}
+.admin_func:hover{
+	color: #030337;
+	font-style: italic;
+	text-decoration: underline
+}
+.center_submit{
+	text-align: center;
+}
+h3{
+	padding-left: 30px;
+	font-size: 15pt;
+}
+.login_form{
+	float: left;
+}
+.bodypart h2 {
+	color:brown;
+	margin-left:180px;
+}
+.bodypart {
+	background-color: wheat;
+	height: 70%;
+	padding: 20px;
+}
+.newspart {
+	width: 49%;
+	float:right;
+}
+.aboutpart {
+	width: 49%;
+	float: left;
+}
+.newspart h4 {
+ 	color:brown;
+ }
+input {
+	border: 1.5px solid brown;
+	border-radius: 4px;
+	padding: 7px 30px;
+}
+input[type=submit] {
+	background-color: brown;
+	color: white;
+	border-radius: 30px;
+	padding: 7px 45px;
+	margin: 0px 135px
+}
+input[type=date] {
+	border: 1.5px solid brown;
+	border-radius: 4px;
+	padding: 5.5px 44.5px;
+}
+input[type=radio] {
+	margin-right: 30px;
+}
+select {
+	border: 1.5px solid brown;
+	border-radius: 4px;
+	width: 200px;
+	height: 25px;
+}
+table {
+	border-collapse: collapse; 
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.set_nice_size{
+	   font-size: 17pt;
+}

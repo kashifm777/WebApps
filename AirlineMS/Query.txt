@@ -1,0 +1,26 @@
+//flight details
+INSERT INTO `flight_details`
+(`flight_no`, `from_city`, `to_city`, `departure_date`, `arrival_date`, `departure_time`, `arrival_time`, `seats_economy`, `seats_business`, `price_economy`, `price_business`, `jet_id`) VALUES
+('fl00001', 'karachi', 'islamabad', '10-08-2020', '10-08-2020', '14:00', '16:00', '150', '75', '9100', '18000', 'A21neo'),
+('fl00002', 'islamabad', 'karachi', '10-08-2020', '10-08-2020', '17:00', '19:00', '160', '70', '9100', '18000', 'A21neo'),
+('fl00003', 'islamabad', 'lahore', '10-08-2020', '10-08-2020', '12:30', '13:15', '100', '85', '7100', '14000', 'A20neo'),
+('fl00004', 'lahore', 'islamabad', '10-08-2020', '10-08-2020', '14:15', '15:00', '90', '90', '7100', '14000', 'A20neo'),
+('fl00005', 'karachi', 'lahore', '11-08-2020', '11-08-2020', '20:30', '22:00', '180', '50', '8500', '16000', 'A21neo'),
+('fl00006', 'lahore', 'karachi', '11-08-2020', '12-08-2020', '23:00', '00:30', '150', '70', '8500', '16000', 'A21neo')
+
+//ticket details
+INSERT INTO `ticket_details`
+(`pnr`, `date_of_reservation`, `flight_no`, `journey_date`, `class`, `booking_status`, `no_of_passengers`, `lounge_access`, `priority_checkin`, `insurance`, `payment_id`, `customer_id`) 
+VALUES 
+('0000113301', '08-08-2020', 'fl00001', '10-08-2020', 'EC', 'confirmed', '170', 'yes', 'yes', 'yes', 'pay00001', 'c0002'),
+('0000113302', '08-08-2020', 'fl00002', '11-08-2020', 'EC', 'confirmed', '190', 'yes', 'yes', 'no', 'pay00002', 'c0001'),
+('0000113303', '07-08-2020', 'fl00003', '11-08-2020', 'BC', 'pending', '185', 'yes', 'no', 'no', 'pay00003', 'c0004'),
+('0000113304', '07-08-2020', 'fl00004', '11-08-2020', 'BC', 'pending', '185', 'no', 'yes', 'no', 'pay00004', 'c0003'),
+('0000113305', '07-08-2020', 'fl00005', '11-08-2020', 'BC', 'confirmed', '170', 'no', 'yes', 'yes', 'pay00005', 'c0007'),
+('0000113306', '07-08-2020', 'fl00006', '11-08-2020', 'BC', 'confirmed', '150', 'no', 'yes', 'yes', 'pay00006', 'c0006')
+				
+				
+				
+commute_id, train_id, station_to, station_from, date_arrival, date_departure, time_arrival, time_departure, total_coaches, total_passenger_economy, total_passenger_business, total_passenger_lower_ac
+
+<div class="row justify-content-md-around m-1">
